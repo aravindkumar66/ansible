@@ -6,5 +6,5 @@
     TRAINER: "SKR"
   tasks:
   - name: print the information
-    ansible.builtin.dubug:
+    ansible.builtin.debug:
       msg: "Hi, i am learning {{COURSE}}, Duration is:{{DURATION}}, Trainer: {{TRAINER}} "
