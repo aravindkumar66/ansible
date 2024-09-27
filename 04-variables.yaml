@@ -8,3 +8,11 @@
   - name: print the information
     ansible.builtin.debug:
       msg: "Hi, i am learning {{COURSE}}, Duration is:{{DURATION}}, Trainer: {{TRAINER}} "
+  
+  - name: print the information again
+    vars: #task variable override
+      COURSE: "Ansible"
+    ansible.builtin.debug:
+      msg: "Hi, i am learning {{COURSE}}, Duration is:{{DURATION}}, Trainer: {{TRAINER}} "
+
+    
