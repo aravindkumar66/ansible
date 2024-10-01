@@ -36,6 +36,6 @@
       course:
         name: "Devops with aws"
         duration: 120
-        trainer: "AravindKumar"
+        trainer: "SKR"
       ansible.builtin.debug:
         msg: "{{ course | dict2items }}"
